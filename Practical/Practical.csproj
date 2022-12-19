@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BussinessLogicInterface\BussinessLogicInterface.csproj" />
+    <ProjectReference Include="..\BussinessLogicService\BussinessLogicService.csproj" />
+    <ProjectReference Include="..\Database\Database.csproj" />
+  </ItemGroup>
+
+</Project>
